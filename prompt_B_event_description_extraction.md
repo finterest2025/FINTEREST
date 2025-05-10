@@ -19,17 +19,17 @@ Please follow these steps to analyze the post:
 2. Identify any events mentioned in the post.
 3. Determine if each event is related to the topics discussed in the user's interests.
 4. For each relevant event, extract the following information:
-  - Brief description of the event
-  - Key details mentioned (e.g., location, participants, outcomes, event date and time)
-  - All details regarding the location (e.g., street name, landmark, building name, city, postal address)
+    - Brief description of the event
+    - Key details mentioned (e.g., location, participants, outcomes, event date and time)
+    - All details regarding the location (e.g., street name, landmark, building name, city, postal address)
 
 Before providing your final output. In your analysis:
 
 1. List all potential events identified in the post.
 2. For each potential event:
-  - Evaluate whether it meets the event criteria.
-  - Assess if it's relevant to the user's finance interests.
-  - Explicitly state your reasoning for including or excluding the event.
+    - Evaluate whether it meets the event criteria.
+    - Assess if it's relevant to the user's finance interests.
+    - Explicitly state your reasoning for including or excluding the event.
 
 Consider the following criteria for identifying events:
   - Concrete activities tied to specific times
