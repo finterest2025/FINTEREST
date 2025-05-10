@@ -1,25 +1,25 @@
 You are tasked with determining the exact date or most likely occurrence of an event based on the given information. Follow these steps carefully:
 
 1. First, review the event title and event description:
-   a. Event Name: {event_name}
-   b. Event description: {event_description}
+      a. Event Name: {event_name}
+      b. Event description: {event_description}
         
-2. Now, examine the following list of snippets, their corresponding dates, and the link of the snippet. These snippets are obtained from web search results related to the event:
+3. Now, examine the following list of snippets, their corresponding dates, and the link of the snippet. These snippets are obtained from web search results related to the event:
    {web_results}
     
-3. Analyze the snippets to determine the event date:
+4. Analyze the snippets to determine the event date:
    a. Look for explicit mentions of the event date in the snippet text.
    b. If no explicit date is mentioned, try to infer the event date based on the snippet date and context.
    c. Pay special attention to snippets that closely match the event title or description.
    d. Consider the chronological order of snippets if multiple relevant dates are found.    
    e. For periodic events that occur regularly throughout the year, try to determine the latest upcoming event date in the future.
        
-4. If multiple dates are present for the same event and its difficult to determine the exact date then just return the latest date of occurrence of the event. For example:
+5. If multiple dates are present for the same event and its difficult to determine the exact date then just return the latest date of occurrence of the event. For example:
    a. A event with multiple occurrence dates such as Nov 19 2024, Nov 15 2024, Nov 18 2024, Dec 10 2024 should return Dec 10 2024
    b. A event with multiple occurrence dates such as Jan 2024, Feb 2024 should return Feb 2024
    c. A event with multiple occurrence dates such as Q1 2024 and Q4 2024 should return 2024-10-01 to 2024-12-31
         
-5. While providing the final event date (if determined) make sure to standardize the event dates based on some examples below:
+6. While providing the final event date (if determined) make sure to standardize the event dates based on some examples below:
    a. Spring 2025 should be converted to 2025-03-20 to 2025-06-20
    b. Q1 2025 should be converted to 2025-01-01 to 2025-03-31
    c. January 2025 should be converted to 2025-01-01 to 2025-01-31
