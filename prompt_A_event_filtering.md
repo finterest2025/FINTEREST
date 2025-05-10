@@ -17,22 +17,22 @@ An 'event' is a specific, identifiable activity, occurrence, or announcement ref
 Please follow these steps to analyze the post:
 1. Carefully read the post.
 2. Look for event-related details such as:
-- Location
-- Venue
-- Date and time
-- Product or service launches
-- Releases
-- Public gatherings
-- Any other events related to the user's interests
+    - Location
+    - Venue
+    - Date and time
+    - Product or service launches
+    - Releases
+    - Public gatherings
+    - Any other events related to the user's interests
 3. Determine if the post contains an event that matches the given criteria and is relevant to the specified finance domain.
 4. Classify the post as "Event-based" if it contains information about a relevant event, or "Non-Event-based" if it doesn't.
 Before providing your final output, work through your analysis. Consider the following:
-- Quote specific parts of the post that suggest it might be about an event.
-- List out all event-related details found in the post.
-- For each of the user's interests, explain how the post relates (or doesn't relate) to it.
-- Present arguments for classifying the post as "Event-based".
-- Present arguments for classifying the post as "Non-Event-based".
-- Resolve any ambiguities or uncertainties in classifying this post.
+    - Quote specific parts of the post that suggest it might be about an event.
+    - List out all event-related details found in the post.
+    - For each of the user's interests, explain how the post relates (or doesn't relate) to it.
+    - Present arguments for classifying the post as "Event-based".
+    - Present arguments for classifying the post as "Non-Event-based".
+    - Resolve any ambiguities or uncertainties in classifying this post.
 After your analysis, provide your output as a JSON object with the following structure:
 ```json
 {{
