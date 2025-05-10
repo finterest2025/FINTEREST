@@ -1,3 +1,5 @@
+# Prompt C : Event attributes extraction
+
 You will a given a list of semantically similar events. The events are extracted from the social media posts like Twitter or X. You will also be given a list of posts that were used to extract the events and a date.
 Here is the list of similar events:
 
