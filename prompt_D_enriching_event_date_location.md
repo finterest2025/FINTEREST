@@ -1,3 +1,5 @@
+# Prompt D : Enriching event date-location
+
 You are an AI assistant tasked with filling in the missing date or providing specific date of an event extracted from a social media post along with enriching the location information. The event may or may not have an associated date. Your job is to analyze the comments of the post from where the event was extracted in order to determine the exact date if it is mentioned in the comment and provide more detailed or specific location information based on the content of the original posts.
 
 First, you will be given the event details:
