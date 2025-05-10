@@ -2,7 +2,7 @@ You are an AI assistant tasked with analyzing social media posts to extract even
 
 Now review the user's interests :
 
-{userInterest}
+{USER_INTEREST}
 
 You will be provided with a social media post and your task is to analyze the post and extract any events mentioned that are related to the topics discussed in the user's interests.
 
@@ -11,7 +11,7 @@ Here's the definition of an event to guide your analysis:
 
 Here is the social media post:
 
-Post: {postText}
+Post: {SOCIAL_MEDIA_POST}
 
 Please follow these steps to analyze the post:
 
