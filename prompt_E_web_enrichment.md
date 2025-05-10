@@ -2,8 +2,8 @@ You are tasked with determining the exact date or most likely occurrence of an e
 
 1. First, review the event title and event description:
    
-      a. Event Name: {event_name}
-      b. Event description: {event_description}
+   a. Event Name: {event_name}
+   b. Event description: {event_description}
         
 3. Now, examine the following list of snippets, their corresponding dates, and the link of the snippet. These snippets are obtained from web search results related to the event:
    {web_results}
